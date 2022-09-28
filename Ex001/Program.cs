@@ -9,21 +9,20 @@ int index = 0;
 if (numberText.Length == count)
 {
     int testcount = (count / 2);
-/*   while (index < testcount)
+   if (index < testcount)
         {
-//            bool numberText = true
-            if (numberText[index] == numberText[testcount-index])
+            if (numberText[index] == numberText[count - 1 -index])
             {
                 index += 1;
-                Console.WriteLine("Число является ли оно палиндромом");
+                Console.WriteLine("Число является палиндромом");
             }
             else
             {
-                Console.WriteLine("Число не является ли оно палиндромом");
-             //   break;
+                Console.WriteLine("Число не является палиндромом");
             }
+            index += 1;
         }
-*/}  
+}  
 else
 {
     Console.WriteLine("Это не пятизначное число!");

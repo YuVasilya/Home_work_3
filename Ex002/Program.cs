@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Напишите метод, который принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 Console.WriteLine("Hello, World!");
